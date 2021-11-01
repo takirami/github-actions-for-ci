@@ -1,2 +1,5 @@
 name: Teams new approval workflow
 on: pull_request_review
+jobs: 
+  labelWhenApproved:
+    runs-on: ubuntu-latest
